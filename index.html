@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('esfara.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .name {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .bio {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .socials {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .social-link {
+            text-decoration: none;
+            color: #34c4d8;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="olbir.png" alt="Profile Picture" class="profile-img">
+        <h2 class="name">Ken Dita Putri</h2>
+        <p class="bio">HS Student | Not Very Enthusiast</p>
+        <div class="socials">
+            <a href="https://x.com/Kenditaput82461" class="social-link">Twitter</a>
+            <a href="https://sites.google.com/view/kndtptr-phase-e-bravo/home" class="social-link">Portfolio</a>
+            <a href="https://github.com/nowrenren" class="social-link">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
